@@ -1,0 +1,1435 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K50 ]
+[d frameptr 4065 ]
+"352 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[e E4541 . `uc
+BUTTON_S1 0
+BUTTON_S2 1
+BUTTON_S3 2
+BUTTON_S4 3
+BUTTON_S5 4
+BUTTON_S6 5
+BUTTON_S7 6
+BUTTON_S8 7
+BUTTON_S9 8
+BUTTON_S10 9
+BUTTON_S11 10
+BUTTON_S12 11
+BUTTON_SH 12
+BUTTON_NONE 13
+]
+"113 /Users/sakura/Desktop/JibunKeyboard.X/buttons.c
+[e E4513 . `uc
+BUTTON_S1 0
+BUTTON_S2 1
+BUTTON_S3 2
+BUTTON_S4 3
+BUTTON_S5 4
+BUTTON_S6 5
+BUTTON_S7 6
+BUTTON_S8 7
+BUTTON_S9 8
+BUTTON_S10 9
+BUTTON_S11 10
+BUTTON_S12 11
+BUTTON_SH 12
+BUTTON_NONE 13
+]
+"117 /Users/sakura/Desktop/JibunKeyboard.X/main.c
+[e E4759 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"144
+[e E4835 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"158
+[e E4541 . `uc
+BUTTON_S1 0
+BUTTON_S2 1
+BUTTON_S3 2
+BUTTON_S4 3
+BUTTON_S5 4
+BUTTON_S6 5
+BUTTON_S7 6
+BUTTON_S8 7
+BUTTON_S9 8
+BUTTON_S10 9
+BUTTON_S11 10
+BUTTON_S12 11
+BUTTON_SH 12
+BUTTON_NONE 13
+]
+"195
+[e E4776 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"196
+[e E4844 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"84 /Users/sakura/Desktop/JibunKeyboard.X/system.c
+[e E4759 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"92
+[e E4513 . `uc
+BUTTON_S1 0
+BUTTON_S2 1
+BUTTON_S3 2
+BUTTON_S4 3
+BUTTON_S5 4
+BUTTON_S6 5
+BUTTON_S7 6
+BUTTON_S8 7
+BUTTON_S9 8
+BUTTON_S10 9
+BUTTON_S11 10
+BUTTON_S12 11
+BUTTON_SH 12
+BUTTON_NONE 13
+]
+"131 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[e E4835 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"731
+[e E4776 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2035
+[e E4844 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"62 /Applications/microchip/xc8/v1.35/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /Applications/microchip/xc8/v1.35/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 /Applications/microchip/xc8/v1.35/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 /Applications/microchip/xc8/v1.35/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 /Applications/microchip/xc8/v1.35/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v1.35/sources/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v1.35/sources/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v1.35/sources/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 /Applications/microchip/xc8/v1.35/sources/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 /Applications/microchip/xc8/v1.35/sources/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /Applications/microchip/xc8/v1.35/sources/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"12 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/busy_eep.c
+[v _Busy_eep Busy_eep `(v  1 e 0 0 ]
+"23 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/read_B.c
+[v _Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+[v i2_Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+"30 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/write_B.c
+[v _Write_b_eep Write_b_eep `(v  1 e 0 0 ]
+"281 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 0 0 ]
+"308
+[v _APP_KeyboardTasks APP_KeyboardTasks `(v  1 e 0 0 ]
+"614
+[v _APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 0 APP_KeyboardProcessOutputReport ]
+"661
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 0 USBHIDCBSetReportComplete ]
+"671
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 0 0 ]
+"682
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 0 0 ]
+"112 /Users/sakura/Desktop/JibunKeyboard.X/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+"200
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+[v i2_BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+"115 /Users/sakura/Desktop/JibunKeyboard.X/main.c
+[v _main main `(i  1 e 2 0 ]
+"194
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+"83 /Users/sakura/Desktop/JibunKeyboard.X/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+[v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"110
+[v _SetKeyboardData SetKeyboardData `(v  1 e 0 0 ]
+[v i2_SetKeyboardData SetKeyboardData `(v  1 e 0 0 ]
+"129
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+"295 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+"495
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+"896
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+"1013
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"1370
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 0 0 ]
+"1434
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+"1506
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+"1561
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+"1634
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+"1789
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+"1870
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+"1986
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+"2061
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+"2147
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+"2220
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+"2263
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+"2321
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+"2390
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+"2483
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+"2555
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+"2609
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+"2703
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+"2771
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+"3042
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
+"153 /Users/sakura/Desktop/JibunKeyboard.X/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 0 0 ]
+"49 /Applications/microchip/xc8/v1.35/include/pic18f14k50.h
+[v _UEP0 UEP0 `VEuc  1 e 1 @3923 ]
+[s S1410 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"101
+[s S1416 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 EP0CONDIS 1 0 :1:3 
+]
+[s S1419 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S1422 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+]
+[s S1425 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 EP0OUTEN 1 0 :1:2 
+]
+[s S1428 . 1 `uc 1 EP0STALL 1 0 :1:0 
+]
+[s S1430 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 EPCONDIS0 1 0 :1:3 
+]
+[s S1433 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[s S1436 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+]
+[s S1439 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 EPOUTEN0 1 0 :1:2 
+]
+[s S1442 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+]
+[u S1444 . 1 `S1410 1 . 1 0 `S1416 1 . 1 0 `S1419 1 . 1 0 `S1422 1 . 1 0 `S1425 1 . 1 0 `S1428 1 . 1 0 `S1430 1 . 1 0 `S1433 1 . 1 0 `S1436 1 . 1 0 `S1439 1 . 1 0 `S1442 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1444  1 e 1 @3923 ]
+"180
+[v _UEP1 UEP1 `VEuc  1 e 1 @3924 ]
+"1097
+[v _UEIE UEIE `VEuc  1 e 1 @3931 ]
+"1147
+[v _UADDR UADDR `VEuc  1 e 1 @3932 ]
+"1318
+[v _UEIR UEIR `VEuc  1 e 1 @3935 ]
+"1368
+[v _UIE UIE `VEuc  1 e 1 @3936 ]
+[s S1069 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"1384
+[u S1077 . 1 `S1069 1 . 1 0 ]
+[v _UIEbits UIEbits `VES1077  1 e 1 @3936 ]
+"1423
+[v _UCFG UCFG `VEuc  1 e 1 @3937 ]
+"1485
+[v _UIR UIR `VEuc  1 e 1 @3938 ]
+[s S1050 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"1501
+[u S1058 . 1 `S1050 1 . 1 0 ]
+[v _UIRbits UIRbits `VES1058  1 e 1 @3938 ]
+"1540
+[v _USTAT USTAT `VEuc  1 e 1 @3939 ]
+"1590
+[v _UCON UCON `VEuc  1 e 1 @3940 ]
+[s S573 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"1606
+[u S581 . 1 `S573 1 . 1 0 ]
+[v _UCONbits UCONbits `VES581  1 e 1 @3940 ]
+"2290
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"2334
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+[s S88 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"2423
+[s S95 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 AN3 1 0 :1:4 
+]
+[s S98 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 OSC2 1 0 :1:4 
+`uc 1 OSC1 1 0 :1:5 
+]
+[s S102 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CLKOUT 1 0 :1:4 
+`uc 1 CLKIN 1 0 :1:5 
+]
+[s S106 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S109 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RA2 1 0 :1:2 
+]
+[s S112 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RA6 1 0 :1:6 
+]
+[s S115 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RA7 1 0 :1:7 
+]
+[s S118 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S121 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S123 . 1 `S88 1 . 1 0 `S95 1 . 1 0 `S98 1 . 1 0 `S102 1 . 1 0 `S106 1 . 1 0 `S109 1 . 1 0 `S112 1 . 1 0 `S115 1 . 1 0 `S118 1 . 1 0 `S121 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES123  1 e 1 @3968 ]
+[s S443 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2559
+[s S449 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 RX 1 0 :1:5 
+`uc 1 SCL 1 0 :1:6 
+`uc 1 TX 1 0 :1:7 
+]
+[s S455 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 DT 1 0 :1:5 
+`uc 1 SCK 1 0 :1:6 
+`uc 1 CK 1 0 :1:7 
+]
+[s S461 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 AN10 1 0 :1:4 
+`uc 1 AN11 1 0 :1:5 
+]
+[s S465 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[s S468 . 1 `uc 1 RB0 1 0 :1:0 
+]
+[s S470 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+]
+[s S473 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RB2 1 0 :1:2 
+]
+[s S476 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RB3 1 0 :1:3 
+]
+[u S479 . 1 `S443 1 . 1 0 `S449 1 . 1 0 `S455 1 . 1 0 `S461 1 . 1 0 `S465 1 . 1 0 `S468 1 . 1 0 `S470 1 . 1 0 `S473 1 . 1 0 `S476 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES479  1 e 1 @3969 ]
+[s S311 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2735
+[s S320 . 1 `uc 1 AN4 1 0 :1:0 
+`uc 1 AN5 1 0 :1:1 
+`uc 1 AN6 1 0 :1:2 
+`uc 1 AN7 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 AN8 1 0 :1:6 
+`uc 1 AN9 1 0 :1:7 
+]
+[s S328 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_SS 1 0 :1:6 
+]
+[s S331 . 1 `uc 1 C12INP 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C12IN2M 1 0 :1:2 
+`uc 1 C12IN3M 1 0 :1:3 
+`uc 1 C12OUT 1 0 :1:4 
+`uc 1 CCP1 1 0 :1:5 
+`uc 1 nSS 1 0 :1:6 
+]
+[s S339 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 PGM 1 0 :1:3 
+`uc 1 SRQ 1 0 :1:4 
+`uc 1 T0CKI 1 0 :1:5 
+`uc 1 T13CKI 1 0 :1:6 
+`uc 1 T1OSCO 1 0 :1:7 
+]
+[s S348 . 1 `uc 1 VREFP 1 0 :1:0 
+`uc 1 VREFM 1 0 :1:1 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T1OSCI 1 0 :1:6 
+]
+[s S354 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 P1D 1 0 :1:2 
+`uc 1 P1C 1 0 :1:3 
+`uc 1 P1B 1 0 :1:4 
+`uc 1 P1A 1 0 :1:5 
+`uc 1 SS 1 0 :1:6 
+`uc 1 SDO 1 0 :1:7 
+]
+[s S362 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[s S365 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S368 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S371 . 1 `S311 1 . 1 0 `S320 1 . 1 0 `S328 1 . 1 0 `S331 1 . 1 0 `S339 1 . 1 0 `S348 1 . 1 0 `S354 1 . 1 0 `S362 1 . 1 0 `S365 1 . 1 0 `S368 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES371  1 e 1 @3970 ]
+"3382
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3511
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1002 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"4041
+[s S1011 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S1014 . 1 `S1002 1 . 1 0 `S1011 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1014  1 e 1 @4000 ]
+[s S1092 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"4106
+[s S1101 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S1104 . 1 `S1092 1 . 1 0 `S1101 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1104  1 e 1 @4001 ]
+[s S1265 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 USBIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 C2IP 1 0 :1:5 
+`uc 1 C1IP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"4171
+[s S1274 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIP 1 0 :1:6 
+]
+[u S1277 . 1 `S1265 1 . 1 0 `S1274 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES1277  1 e 1 @4002 ]
+[s S2362 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"4236
+[s S2371 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S2374 . 1 `S2362 1 . 1 0 `S2371 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES2374  1 e 1 @4006 ]
+"4280
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"4286
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"4292
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+[s S1198 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"6765
+[s S1200 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1203 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1206 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1209 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1212 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1221 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1227 . 1 `S1198 1 . 1 0 `S1200 1 . 1 0 `S1203 1 . 1 0 `S1206 1 . 1 0 `S1209 1 . 1 0 `S1212 1 . 1 0 `S1221 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1227  1 e 1 @4048 ]
+[s S1293 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7528
+[s S1302 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1311 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S1320 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1329 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1333 . 1 `S1293 1 . 1 0 `S1302 1 . 1 0 `S1311 1 . 1 0 `S1320 1 . 1 0 `S1329 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1333  1 e 1 @4082 ]
+[s S21 . 63 `[63]uc 1 report 63 0 ]
+"77 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _hid_rpt01 hid_rpt01 `CS21  1 e 63 0 ]
+[s S23 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `uc 1 waitingForRelease 1 5 ]
+"240
+[v _keyboard keyboard `S23  1 s 6 keyboard ]
+[s S28 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"245
+[u S37 . 1 `uc 1 value 1 0 `S28 1 bits 1 0 ]
+[s S40 . 8 `S37 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _inputReport inputReport `S40  1 s 8 inputReport ]
+[s S44 . 8 `[8]uc 1 value 8 0 ]
+"250
+[v _outputReport outputReport `VES44  1 s 8 outputReport ]
+[s S28 . 1 `uc 1 leftControl 1 0 :1:0 
+`uc 1 leftShift 1 0 :1:1 
+`uc 1 leftAlt 1 0 :1:2 
+`uc 1 leftGUI 1 0 :1:3 
+`uc 1 rightControl 1 0 :1:4 
+`uc 1 rightShift 1 0 :1:5 
+`uc 1 rightAlt 1 0 :1:6 
+`uc 1 rightGUI 1 0 :1:7 
+]
+"264
+[u S37 . 1 `uc 1 value 1 0 `S28 1 bits 1 0 ]
+[s S40 . 8 `S37 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+`[6]uc 1 keys 6 2 ]
+[v _oldInputReport oldInputReport `S40  1 e 8 0 ]
+"265
+[v _keyboardIdleRate keyboardIdleRate `i  1 e 2 0 ]
+"266
+[v _LocalSOFCount LocalSOFCount `i  1 e 2 0 ]
+"267
+[v _OldSOFCount OldSOFCount `i  1 s 2 OldSOFCount ]
+"72 /Users/sakura/Desktop/JibunKeyboard.X/main.c
+[v _SOFCounter SOFCounter `VEi  1 e 2 0 ]
+"76
+[v _keyCode keyCode `[12]uc  1 e 12 0 ]
+"77
+[v _keyModifier keyModifier `[12]uc  1 e 12 0 ]
+"78
+[v _shiftedKeyCode shiftedKeyCode `[12]uc  1 e 12 0 ]
+"79
+[v _shiftedKeyModifier shiftedKeyModifier `[12]uc  1 e 12 0 ]
+[s S720 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `ui 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `ui 1 idVendor 2 8 `ui 1 idProduct 2 10 `ui 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"64 /Users/sakura/Desktop/JibunKeyboard.X/usb_descriptors.c
+[v _device_dsc device_dsc `CS720  1 e 18 0 ]
+"83
+[v _configDescriptor1 configDescriptor1 `C[41]uc  1 e 41 0 ]
+[s S735 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]ui 1 string 2 2 ]
+"135
+[v _sd000 sd000 `CS735  1 e 4 0 ]
+[s S739 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]ui 1 string 50 2 ]
+"140
+[v _sd001 sd001 `CS739  1 e 52 0 ]
+[s S743 . 24 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[11]ui 1 string 22 2 ]
+"149
+[v _sd002 sd002 `CS743  1 e 24 0 ]
+"155
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"161
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+"131 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE4835  1 e 1 0 ]
+"132
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"133
+[v _USBAlternateInterface USBAlternateInterface `VE[1]uc  1 e 1 0 ]
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"134
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES825  1 e 2 0 ]
+"135
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES825  1 e 2 0 ]
+"136
+[v _pBDTEntryOut pBDTEntryOut `[2]*.39VES825  1 e 4 0 ]
+"137
+[v _pBDTEntryIn pBDTEntryIn `[2]*.39VES825  1 e 4 0 ]
+"138
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"139
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S830 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2ui 1 wRam 3 0 `*.2Cui 1 wRom 3 0 ]
+"140
+[s S835 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S840 . 1 `S835 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S203 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S206 . 2 `ui 1 Val 2 0 `[2]uc 1 v 2 0 `S203 1 byte 2 0 ]
+[s S850 . 6 `S830 1 pSrc 3 0 `S840 1 info 1 3 `S206 1 wCount 2 4 ]
+[v _inPipes inPipes `VE[1]S850  1 e 6 0 ]
+[u S194 . 3 `*.2uc 1 bRam 3 0 `*.2ui 1 wRam 3 0 ]
+"141
+[s S197 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S200 . 1 `S197 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S211 . 8 `S194 1 pDst 3 0 `S200 1 info 1 3 `S206 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `VE[1]S211  1 e 8 0 ]
+"142
+[v _pDst pDst `*.39VEuc  1 e 2 0 ]
+"143
+[v _RemoteWakeup RemoteWakeup `VEuc  1 e 1 0 ]
+"144
+[v _USBBusIsSuspended USBBusIsSuspended `VEuc  1 e 1 0 ]
+[s S869 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"145
+[u S874 __USTAT 1 `S869 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES874  1 e 1 0 ]
+"146
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"147
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEuc  1 e 1 0 ]
+[s S877 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"148
+[u S880 . 1 `S877 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[2]S880  1 e 2 0 ]
+"149
+[v _ep_data_out ep_data_out `VE[2]S880  1 e 2 0 ]
+"150
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"151
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEuc  1 e 1 0 ]
+"152
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEuc  1 e 1 0 ]
+"153
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEuc  1 e 1 0 ]
+"154
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEuc  1 e 1 0 ]
+"155
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEuc  1 e 1 0 ]
+"156
+[v _USB1msTickCount USB1msTickCount `VEul  1 e 4 0 ]
+"157
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `VEuc  1 e 1 0 ]
+"164
+[v _BDT BDT `VE[8]S825  1 e 32 @512 ]
+[s S883 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `ui 1 wValue 2 2 `ui 1 wIndex 2 4 `ui 1 wLength 2 6 ]
+"169
+[s S910 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S206 1 W_Value 2 2 `S206 1 W_Index 2 4 `S206 1 W_Length 2 6 ]
+[s S916 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S927 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S931 . 1 `uc 1 bmRequestType 1 0 `S927 1 . 1 0 ]
+[s S934 . 1 `S931 1 requestInfo 1 0 ]
+[s S936 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `ui 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S944 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S953 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S962 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S971 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S980 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S991 . 8 `S883 1 . 8 0 `S910 1 . 8 0 `S916 1 . 8 0 `S934 1 . 1 0 `S936 1 . 8 0 `S944 1 . 8 0 `S953 1 . 8 0 `S962 1 . 8 0 `S971 1 . 8 0 `S980 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES991  1 e 8 @544 ]
+"170
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @552 ]
+"79 /Users/sakura/Desktop/JibunKeyboard.X/usb_device_hid.c
+[v _idle_rate idle_rate `uc  1 s 1 idle_rate ]
+"80
+[v _active_protocol active_protocol `uc  1 s 1 active_protocol ]
+"115 /Users/sakura/Desktop/JibunKeyboard.X/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"170
+} 0
+"295 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+"297
+[v USBDeviceInit@i i `uc  1 a 1 8 ]
+"389
+} 0
+"1370
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 0 0 ]
+{
+"1400
+} 0
+"83 /Users/sakura/Desktop/JibunKeyboard.X/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+[v SYSTEM_Initialize@state state `E4759  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E4759  1 a 1 wreg ]
+[v SYSTEM_Initialize@state state `E4759  1 a 1 5 ]
+"104
+} 0
+"110
+[v _SetKeyboardData SetKeyboardData `(v  1 e 0 0 ]
+{
+"112
+[v SetKeyboardData@i i `uc  1 a 1 4 ]
+"125
+} 0
+"23 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/read_B.c
+[v _Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+{
+[v Read_b_eep@badd badd `ui  1 p 2 0 ]
+"32
+} 0
+"200 /Users/sakura/Desktop/JibunKeyboard.X/buttons.c
+[v _BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+{
+"225
+} 0
+"308 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _APP_KeyboardTasks APP_KeyboardTasks `(v  1 e 0 0 ]
+{
+"310
+[v APP_KeyboardTasks@TimeDeltaMilliseconds TimeDeltaMilliseconds `i  1 a 2 11 ]
+"311
+[v APP_KeyboardTasks@i i `uc  1 a 1 13 ]
+"312
+[v APP_KeyboardTasks@needToSendNewReportPacket needToSendNewReportPacket `uc  1 a 1 10 ]
+"612
+} 0
+"8 /Applications/microchip/xc8/v1.35/sources/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 6 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"1013 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1015
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES825  1 a 2 5 ]
+"1013
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1018
+[v USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"1065
+} 0
+"112 /Users/sakura/Desktop/JibunKeyboard.X/buttons.c
+[v _BUTTON_IsPressed BUTTON_IsPressed `(uc  1 e 1 0 ]
+{
+[v BUTTON_IsPressed@button button `E4513  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E4513  1 a 1 wreg ]
+[v BUTTON_IsPressed@button button `E4513  1 a 1 0 ]
+"182
+} 0
+"614 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _APP_KeyboardProcessOutputReport APP_KeyboardProcessOutputReport `(v  1 s 0 APP_KeyboardProcessOutputReport ]
+{
+"618
+[v APP_KeyboardProcessOutputReport@keyNumber keyNumber `uc  1 a 1 6 ]
+"659
+} 0
+"30 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/write_B.c
+[v _Write_b_eep Write_b_eep `(v  1 e 0 0 ]
+{
+"32
+[v Write_b_eep@GIE_BIT_VAL GIE_BIT_VAL `uc  1 a 1 3 ]
+"30
+[v Write_b_eep@badd badd `ui  1 p 2 0 ]
+[v Write_b_eep@bdat bdat `uc  1 p 1 2 ]
+"46
+} 0
+"12 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/busy_eep.c
+[v _Busy_eep Busy_eep `(v  1 e 0 0 ]
+{
+"15
+} 0
+"129 /Users/sakura/Desktop/JibunKeyboard.X/system.c
+[v _SYS_InterruptHigh SYS_InterruptHigh `II(v  1 e 0 0 ]
+{
+"134
+} 0
+"495 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 0 0 ]
+{
+"497
+[v USBDeviceTasks@i i `uc  1 a 1 27 ]
+"845
+} 0
+"295
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 0 0 ]
+{
+[v i2USBDeviceInit@i USBDeviceInit `uc  1 a 1 8 ]
+"389
+} 0
+"2321
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 0 USBWakeFromSuspend ]
+{
+"2367
+} 0
+"2263
+[v _USBSuspend USBSuspend `(v  1 s 0 USBSuspend ]
+{
+"2304
+} 0
+"2220
+[v _USBStallHandler USBStallHandler `(v  1 s 0 USBStallHandler ]
+{
+"2245
+} 0
+"3042
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 0 0 ]
+{
+"3060
+} 0
+"2390
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 0 USBCtrlEPService ]
+{
+"2441
+} 0
+"11 /Applications/microchip/xc8/v1.35/sources/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"20
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"18
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"11
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"32
+} 0
+"2483 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 0 USBCtrlTrfSetupHandler ]
+{
+"2532
+} 0
+"1634
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 0 USBCtrlEPServiceComplete ]
+{
+"1766
+} 0
+"1506
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 0 0 ]
+{
+"1536
+} 0
+"2703
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 0 USBCheckStdRequest ]
+{
+"2750
+} 0
+"1986
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 0 USBStdSetCfgHandler ]
+{
+"1988
+[v USBStdSetCfgHandler@i i `uc  1 a 1 20 ]
+"2042
+} 0
+"8 /Applications/microchip/xc8/v1.35/sources/common/memset.c
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+{
+[v i2memset@p memset `*.39uc  1 a 2 6 ]
+[v i2memset@p1 p1 `*.39v  1 p 2 0 ]
+[v i2memset@c c `i  1 p 2 2 ]
+[v i2memset@n n `ui  1 p 2 4 ]
+"22
+} 0
+"2147 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 0 USBStdGetStatusHandler ]
+{
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2179
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S825  1 a 2 1 ]
+"2202
+} 0
+"2061
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 0 USBStdGetDscHandler ]
+{
+"2130
+} 0
+"2771
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 0 USBStdFeatureReqHandler ]
+{
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2773
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S825  1 a 2 24 ]
+"2778
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 21 ]
+[s S877 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2774
+[u S880 . 1 `S877 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S880  1 a 1 23 ]
+"2997
+} 0
+"194 /Users/sakura/Desktop/JibunKeyboard.X/main.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(uc  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E4776  1 p 2 12 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 14 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `ui  1 p 2 16 ]
+"265
+} 0
+"83 /Users/sakura/Desktop/JibunKeyboard.X/system.c
+[v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+[v i2SYSTEM_Initialize@state state `E4759  1 a 1 wreg ]
+[v i2SYSTEM_Initialize@state state `E4759  1 a 1 wreg ]
+[v i2SYSTEM_Initialize@state state `E4759  1 a 1 5 ]
+"104
+} 0
+"110
+[v i2_SetKeyboardData SetKeyboardData `(v  1 e 0 0 ]
+{
+[v i2SetKeyboardData@i SetKeyboardData `uc  1 a 1 4 ]
+"125
+} 0
+"23 /Applications/microchip/xc8/v1.35/sources/pic18/plib/EEP/read_B.c
+[v i2_Read_b_eep Read_b_eep `(uc  1 e 1 0 ]
+{
+[v i2Read_b_eep@badd badd `ui  1 p 2 0 ]
+"32
+} 0
+"200 /Users/sakura/Desktop/JibunKeyboard.X/buttons.c
+[v i2_BUTTON_Enable BUTTON_Enable `(v  1 e 0 0 ]
+{
+"225
+} 0
+"153 /Users/sakura/Desktop/JibunKeyboard.X/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 0 0 ]
+{
+"241
+} 0
+"671 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _USBHIDCBSetReportHandler USBHIDCBSetReportHandler `(v  1 e 0 0 ]
+{
+"677
+} 0
+"682
+[v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 0 0 ]
+{
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 wreg ]
+[v USBHIDCBSetIdleRateHandler@newIdleRate newIdleRate `uc  1 p 1 0 ]
+"687
+[v USBHIDCBSetIdleRateHandler@reportID reportID `uc  1 a 1 1 ]
+"691
+} 0
+"281
+[v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 0 0 ]
+{
+"306
+} 0
+"1013 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i2USBTransferOnePacket@handle USBTransferOnePacket `*.39VES825  1 a 2 5 ]
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i2USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i2USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i2USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1018
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 4 ]
+"1065
+} 0
+"896
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 0 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"898
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 9 ]
+"896
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
+"902
+[v USBEnableEndpoint@ep ep `uc  1 a 1 11 ]
+"920
+} 0
+"1561
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 0 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S791 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1563
+[s S800 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S807 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S811 _BD_STAT 1 `uc 1 Val 1 0 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 ]
+[s S816 . 4 `S811 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S821 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`ui 1 ADR 2 2 ]
+[u S825 __BDT 4 `S816 1 . 4 0 `S821 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES825  1 a 2 6 ]
+"1561
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1567
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1603
+} 0
+"2555
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 0 USBCtrlTrfOutHandler ]
+{
+"2584
+} 0
+"1870
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 0 USBCtrlTrfRxService ]
+{
+"1872
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 1 ]
+"1873
+[v USBCtrlTrfRxService@i i `uc  1 a 1 0 ]
+"1965
+} 0
+"1434
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 0 0 ]
+{
+"1477
+} 0
+"2609
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 0 USBCtrlTrfInHandler ]
+{
+"2611
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 1 ]
+"2684
+} 0
+"661 /Users/sakura/Desktop/JibunKeyboard.X/app_device_keyboard.c
+[v _USBHIDCBSetReportComplete USBHIDCBSetReportComplete `(v  1 s 0 USBHIDCBSetReportComplete ]
+{
+"669
+} 0
+"1789 /Users/sakura/Desktop/JibunKeyboard.X/usb_device.c
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 0 USBCtrlTrfTxService ]
+{
+"1791
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1843
+} 0
